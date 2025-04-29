@@ -6,3 +6,15 @@ trabajo grupal
 SamrtPark UdeA: es un proyecto educativo innovador que busca transformar el concepto tradicional de parqueadero en un espacio inteligente, sostenible y formativo dentro de la universidad de Antioquia.
 #Licencia del Software : This work by E is marked with CC0 1.0. To view a copy of this license, visit https://creativecommons.org/publicdomain/zero/1.0/
 plan de proyecto: presupuesto valor de hora: 6388mil horas del pryecto en reuniones semenales 7 horas totales:44.716mil pesos horas totales en reuniones de actas 4horas totales #valor total 25.552 
+Este software está diseñado para gestionar de manera eficiente la entrada, salida y cobro de vehículos en un parqueadero. Su objetivo principal es automatizar el registro de vehículos, calcular el tiempo de permanencia y determinar el monto a cobrar, ofreciendo un servicio rápido, organizado y confiable.
+Objetivos del software:
+Registrar la entrada de cada vehículo, almacenando datos como la placa y la hora de ingreso, además el número de documento del conductor y su nombre.
+Registrar la salida del vehículo y calcular el tiempo total de estancia.
+Calcula automáticamente el valor a pagar según la tarifa establecida (por hora, fracción o día).
+Generar reportes de ingresos diarios, vehículos actuales en el parqueadero, y controlar la capacidad disponible.
+Beneficios:
+Ahorro de tiempo tanto para los administradores como para los clientes.
+Reducción de errores humanos en el registro y cobro.
+Mejora en la organización del parqueadero mediante control de entradas y salidas.
+Facilita el control financiero del negocio mediante informes claros y automáticos.
+Posibilidad de expansión futura para agregar pagos electrónicos, facturación o reservas en línea.
