@@ -1,44 +1,122 @@
-# algoritmo-1-trabajo
-trabajo grupal
-#nombre de integrantes: Laura Melina Tapasco Avendaño-Enilda Rosa Ayazo Manga-Juan Jose Perez Durango
-#Vínculos académicos y descripción: somos de la facultad de ingenieria, Laura Melina Tapasco Avendaño de la sede de Segovia programa 549-Enilda Rosa Ayazo Manga de la sede Medellin del programa 549-Juan Jose Perez Durango de la sede de occidente del programa 549 ## fortalezas y habilidades de Laura Melina Tapasco Avendaño: Organización, adaptación, resiliencia, gestión del estrés, iniciativa. ## fortalezas y habilidades de Enilda Rosa Ayazo Manga: empatia, responsable, honesta, proactiva, inteligencia emocional ##habilidades y fortalezas Juan Jose Perez Durango: responsable, interpretacion matematica, compromiso, respetuoso.
-#Nombre del proyecto y detalles: SamrtPark UdeA: es un proyecto educativo innovador que busca transformar el concepto tradicional de parqueadero en un espacio inteligente, sostenible y formativo dentro de la universidad de Antioquia.
-#Licencia del Software : This work by E is marked with CC0 1.0. To view a copy of this license, visit https://creativecommons.org/publicdomain/zero/1.0/
-Este software está diseñado para gestionar de manera eficiente la entrada, salida y cobro de vehículos en un parqueadero. Su objetivo principal es automatizar el registro de vehículos, calcular el tiempo de permanencia y determinar el monto a cobrar, ofreciendo un servicio rápido, organizado y confiable.
-Objetivos del software: Registrar la entrada de cada vehículo, almacenando datos como la placa y la hora de ingreso, además el número de documento del conductor y su nombre.
-Registrar la salida del vehículo y calcular el tiempo total de estancia.
-Calcula automáticamente el valor a pagar según la tarifa establecida (por hora, fracción o día).
-Generar reportes de ingresos diarios, vehículos actuales en el parqueadero, y controlar la capacidad disponible.
-Beneficios: Ahorro de tiempo tanto para los administradores como para los clientes.
-Reducción de errores humanos en el registro y cobro.
-Mejora en la organización del parqueadero mediante control de entradas y salidas.
-Facilita el control financiero del negocio mediante informes claros y automáticos.
-Posibilidad de expansión futura para agregar pagos electrónicos, facturación o reservas en línea.
-Requisitos Funcionales (lo que el sistema debe hacer):
-Registrar usuarios (nombre, placa, teléfono).
-Ingresar vehículos (asignar espacio, registrar hora de entrada).
-Retirar vehículos (calcular cobro, liberar espacio).
-Generar reportes (vehículos dentro, ingresos, espacios disponibles).
-Exportar datos a CSV.
-Interfaz de usuario amigable por consola.
+# SmartPark UdeA
 
-Requisitos No Funcionales (cómo debe ser el sistema):
-Fácil de usar (menús claros).
-Portátil (funciona solo con Python instalado).
-Código organizado y fácil de mantener.
-Respuesta rápida.
-Guardar los datos de forma segura (CSV).
-Manejar correctamente fechas y horas.
-Ser robusto ante errores (entradas inválidas, parqueadero lleno, etc.).
-plan de proyecto actividades:
-Análisis de requerimientos
-Definir funciones principales del sistema (Todo el equipo)
-Diseño del sistema: Planear estructura de datos, clases y flujo (todo el equipo).
-Configuración de repositorio GitHub: Crear repositorio, definir ramas (lider de quipo)
-Programación Módulo de Registro: Programar registro de usuarios y vehículos.
-Integrante 1: Programación Módulo de Cobros Programar tarifas legales de parqueaderos que están reguladas por la autoridad administrativa municipal y departamental, Las tarifas pueden variar según el tipo de vehículo, ect.
-Integrante 2: Programación Módulo de Reportes,Programar generación y exportación a CSV.
-Integrante 3: Integración de módulos Unir módulos y pruebas de integración.
-Todo el equipo: Pruebas del sistema Simular el ingreso y retiro de vehículos. Documentación. Redactar manual de usuario y técnico. Entrega final.
-Publicar versión final en GitHub y enviar informe.
-Líder de equipo presupuesto valor de hora: 6388mil horas del pryecto en reuniones semenales 7 horas totales:44.716mil pesos horas totales en reuniones de actas 4horas totales #valor total 25.552 
+## Integrantes
+
+- **Laura Melina Tapasco Avendaño**
+- **Enilda Rosa Ayazo Manga**
+- **Juan José Pérez Durango**
+
+## Vínculos académicos y descripción
+
+Somos estudiantes de la Facultad de Ingeniería de la Universidad de Antioquia:
+
+- **Laura Melina Tapasco Avendaño** – Sede Segovia – Programa 549  
+- **Enilda Rosa Ayazo Manga** – Sede Medellín – Programa 549  
+- **Juan José Pérez Durango** – Sede Occidente – Programa 549  
+
+## Fortalezas y habilidades
+
+**Laura Melina Tapasco Avendaño**  
+Organización, adaptación, resiliencia, gestión del estrés, iniciativa.
+
+**Enilda Rosa Ayazo Manga**  
+Empatía, responsabilidad, honestidad, proactividad, inteligencia emocional.
+
+**Juan José Pérez Durango**  
+Responsabilidad, interpretación matemática, compromiso, respeto.
+
+---
+
+## Nombre del proyecto y detalles
+
+**SmartPark UdeA**  
+Este es un proyecto educativo con el que buscamos mejorar el funcionamiento de un parqueadero dentro de la universidad. Queremos que sea más organizado, rápido y práctico, ayudando a registrar vehículos, calcular cobros y mostrar reportes.
+
+![image](https://github.com/user-attachments/assets/e810a4fe-ec9b-4b54-a85f-98ab04aad4c5)
+
+
+---
+
+## Licencia del software
+
+Este trabajo está publicado bajo la licencia **CC0 1.0**.  
+[Ver licencia](https://creativecommons.org/publicdomain/zero/1.0/)
+
+---
+
+## Reporte de visión
+
+Este programa ayuda a llevar el control de un parqueadero. Registra quién entra y sale, calcula cuánto debe pagar un usuario y da reportes para que se pueda hacer seguimiento.
+
+### Objetivos
+
+- Guardar los datos de los usuarios que usan el parqueadero.
+- Calcular cuánto debe pagar un usuario al salir.
+- Mostrar reportes útiles para el administrador.
+
+### Beneficios
+
+- Ahorro de tiempo.
+- Menos errores al hacer cobros.
+- Mejora el orden del parqueadero.
+- Se puede mejorar más adelante con nuevas funciones como pagos en línea.
+
+---
+
+## Especificación de requisitos
+
+### Requisitos funcionales (lo que hace el sistema)
+
+- Registrar usuarios (nombre, documento, placa).
+- Ingresar vehículos (guardar hora y espacio).
+- Retirar vehículos (calcular cuánto deben pagar).
+- Mostrar reportes (vehículos dentro, ingresos, etc.).
+- Exportar datos a CSV.
+- Interfaz sencilla por consola.
+
+### Requisitos no funcionales (cómo debe comportarse el sistema)
+
+- Fácil de usar.
+- Funciona con solo tener Python.
+- Código claro y ordenado.
+- Respuesta rápida.
+- Guarda la información de manera segura.
+- Usa bien fechas y horas.
+- No se cae fácilmente si algo se hace mal.
+
+---
+
+## Plan de proyecto
+
+### Actividades
+
+- **Análisis de requerimientos** – Todo el equipo  
+- **Diseño del sistema** – Todo el equipo  
+- **Configuración de repositorio en GitHub** – Líder del equipo  
+- **Registro de usuarios y vehículos** – Integrante 1  
+- **Cálculo de cobros** – Integrante 2  
+- **Reportes y exportación a CSV** – Integrante 3  
+- **Unión y pruebas de módulos** – Todo el equipo  
+- **Documentación final** – Todo el equipo  
+- **Publicación en GitHub** – Líder del equipo
+
+### Presupuesto (en tiempo)
+
+- Valor de la hora de práctica: $6.388
+- Horas de trabajo en reuniones semanales: 7 horas  
+  - Total: $44.716
+- Reuniones de actas: 4 horas  
+  - Total: $25.552  
+- **Valor total en tiempo**: $70.268
+
+---
+
+## Plan de versionado
+
+Se actualizará el sistema cada vez que se complete una parte importante del proyecto:
+
+xxxx
+
+---
+
+> Este proyecto fue realizado como parte de nuestra formación en la Universidad de Antioquia.
